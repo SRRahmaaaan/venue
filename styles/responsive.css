@@ -1,0 +1,152 @@
+@media screen and (max-width: 1300px) {
+  .place-container .card {
+    margin-bottom: 20px;
+  }
+  .service2 .flex {
+    flex-direction: column;
+  }
+  .service2 .left,
+  .service2 .right {
+    width: 100%;
+  }
+  .service2 .left {
+    margin-bottom: 1.5rem;
+  }
+  .contact-details .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .contact-details .about p,
+  .contact-details .information > *:first-child {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .showcase .form {
+    height: auto;
+  }
+  .showcase .form .flex {
+    flex-direction: column;
+  }
+  .showcase .form .flex button {
+    width: 100%;
+    margin-top: 0.8rem;
+  }
+  .showcase .form .form-control {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    padding: 1rem 0;
+  }
+  .features .flex,
+  .services .flex,
+  .pricing .flex {
+    flex-wrap: wrap;
+  }
+  .features .feature-box .content .buttons button {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+}
+@media screen and (max-width: 992px) {
+  header .flex {
+    flex-direction: column;
+  }
+  nav {
+    width: 100%;
+    background-color: white;
+    transform: translateY(-120%);
+    transition: all 0.5s ease-in-out;
+    z-index: -11;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid #ccc;
+  }
+  .logo {
+    margin-left: -50%;
+  }
+  #navbar-toggler {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 100px;
+    height: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #navbar-toggler .bars {
+    height: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    background-color: white;
+  }
+  #checkbox:checked ~ nav {
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .showcase .container {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+  .features .feature-box {
+    margin-bottom: 20px;
+  }
+
+  .features .container,
+  .services .container,
+  .pricing .container {
+    padding: 0.5rem;
+  }
+  .service2 {
+    padding: 4rem 2rem;
+  }
+}
+@media screen and (max-width: 428px) {
+  .service2 {
+    padding: 4rem 0;
+  }
+}
+@media screen and (max-width: 380px) {
+  .contact-details .about i {
+    margin-bottom: 15px;
+  }
+  .contact-details .information .addresses {
+    width: 100%;
+  }
+  #navbar-toggler {
+    right: 0;
+  }
+  .sub-head {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .service2 label {
+    font-size: 0.7rem;
+  }
+  .pricing .price-card,
+  .service-box {
+    text-align: center;
+    padding: 1rem;
+  }
+  .contact-details .links .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .contact-details .information .addresses {
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
