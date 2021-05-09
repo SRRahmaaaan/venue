@@ -2,4 +2,4 @@
 
 ### My main focus in this project was to make the project 100%  responsive
 
-### Live Link: https://srrahmaaaan.github.io/venue/index.html
+### Live Link: https://srrahmaaaan.github.io/venue/
